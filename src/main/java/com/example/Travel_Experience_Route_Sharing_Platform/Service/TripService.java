@@ -15,11 +15,13 @@ public class TripService
 
     public Trip insert(Trip trip)
     {
+
         return tripRepository.save(trip);
     }
 
     public List<Trip> fetch()
     {
+
         return tripRepository.findAll();
     }
 
