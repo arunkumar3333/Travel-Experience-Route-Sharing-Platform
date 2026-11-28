@@ -19,7 +19,8 @@ public class CostBreakdownService {
         return CostBreakdownRepository.save(CostBreakdowns);
     }
 
-    public List<CostBreakdowns> insertMany(List<CostBreakdowns> CostBreakdowns) {
+    public List<CostBreakdowns> insertMany(List<CostBreakdowns> CostBreakdowns)
+    {
         return CostBreakdownRepository.saveAll(CostBreakdowns);
     }
     public List<CostBreakdowns> fetch(){
